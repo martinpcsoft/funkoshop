@@ -72,7 +72,7 @@
         font-family:var(--alternative-font);
         color: var(--ligth-font-solid);
     }
-    ul, li {
+    ul, ol {
         list-style-type: none;
     }
     p {
@@ -82,6 +82,7 @@
         max-width: 1200px;
         margin: 0 auto;
     }
+
     img{
         width: 100%;
     }
@@ -111,9 +112,17 @@ header{
     font-size: var(--font-medium);
     padding: var(--spacing-8) var(--spacing-16);
     display:inline-block;
+    transition: background .3s ease-in-out;
+    position: relative;
 }
+
 .navbar__link:hover{
     background-color: var(--primary-900);
+ }
+ .with-icon{
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-8);
 }
 
 

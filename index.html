@@ -2,28 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Document</title>
 </head>
 <body>
     <!-- Inicio del Header -->
     <header>
-        <nav>
-            <picture>
+        <nav class="navbar">
+            <picture class="navbar__logo">
                 <a href="./index.html">
                    <img src="./img/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funkoshop">
                 </a>
-
             </picture>
-            <ul>
-            <li><a href="./pages/shop.html"></a>SHOP</li>
-            <li><a href="./pages/contacto.html"></a>CONTACTO</li>
-            <li><a href="./pages/login.html"></a>LOGIN</li>
-            <li>
-                <a href="./pages/cart.html">
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a class="navbar__link  with-icon"href="./pages/shop/shop.html">SHOP<iconify-icon icon="tabler:chevron-down"></iconify-icon></a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Funkos</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Remeras</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Llaveros</a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <li class="navbar__item"><a class="navbar__link" href="./pages/contacto.html">CONTACTO</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="./pages/login.html">LOGIN</a></li>
+                <li class="navbar__item"><a class="navbar__cart" href="./pages/cart.html">
                     <img src="./img/icons/cart-icon.svg" alt="icono de carrito">
-                </a></li>
+                  </a>
+            </li>
             </ul>   
 
         </nav>
@@ -148,6 +161,6 @@
 
     </footer>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
 </body>
 </html>
