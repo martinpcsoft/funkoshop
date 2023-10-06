@@ -142,6 +142,62 @@ header{
 }
 .submenu__link:hover{
     background-color: var(--primary-900);
+}
+
+/* HERO*/
+.hero{
+    background-image: url(../img/funkos-banner.webp);
+    padding: var(--spacing-128);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.hero__contenido{
+    display: flex;
+    flex-direction:column;
+    gap: var(--spacing-20);
+    align-items: start;
+    z-index: 2;
+    position: relative;
+}
+.hero__titulo{
+    font-family: var(--alternative-font);
+    font-size: var(--font-jumbo);
+    color: var(--ligth-font-solid);
+}
+.hero__texto{
+    font-family: var(--alternative-font);
+    font-size: var(--font-medium);
+    color: var(--ligth-font-solid);
+}
+
+.hero__link{
+    display: inline-block;
+    font-size: var(--font-medium);
+    background-color: var(--light-bg-solid);
+    padding: var(--spacing-12) var(--spacing-68);
+    border-radius: 50px;
+    font-weight:100 ;
+    transition: all .3s ease-in-out;
+}
+.hero__link:hover{
+    background-color: var(--primary-900);
+    color: var(--ligth-font-solid);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
