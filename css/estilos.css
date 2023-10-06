@@ -30,7 +30,7 @@
     --font-display: 4.6em;
     --font-jumbo: 3.8em;
     --font-xlarge:3em;
-    --font--large: 2.4em;
+    --font-large: 2.4em;
     --font-medium:1.8em;
     --font-small: 1.6em;
     --font-xsmall: 1.4em;
@@ -185,7 +185,48 @@ header{
     background-color: var(--primary-900);
     color: var(--ligth-font-solid);
 }
-/* 
+
+/* COLECCIONES */
+.collection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.collection__content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-24);
+    align-items: start;
+}
+.collection__titulo{
+    font-family: var(--alternative-font);
+    font-size: var(--font-display);
+    font-weight: 500;
+}
+.collection__texto{
+    font-family: var(--alternative-font);
+    font-size: var(--font-large);
+    font-weight: 300;
+    border-bottom: 2px solid var(--primary-solid);
+    padding-bottom: var(--spacing-20);
+}
+.collection__link{
+    display: inline-block;
+    font-size: var(--font-medium);
+    background-color: var(--dark-bg-solid);
+    color:var(--ligth-font-solid);
+    padding: var(--spacing-16) var(--spacing-36) ;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.collection__link:hover{
+    background-color: var(--primary-900);
+
+}
+
+
+
+
 
 
 
