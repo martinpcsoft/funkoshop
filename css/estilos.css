@@ -178,14 +178,14 @@ header{
     background-color: var(--light-bg-solid);
     padding: var(--spacing-12) var(--spacing-68);
     border-radius: 50px;
-    font-weight:100 ;
+    font-weight:400 ;
     transition: all .3s ease-in-out;
 }
 .hero__link:hover{
     background-color: var(--primary-900);
     color: var(--ligth-font-solid);
 }
-
+/* 
 
 
 
