@@ -309,7 +309,7 @@ header{
 
 }.footer__copy{
     margin-top: var(--spacing-20);
-    text-align: right;
+    text-align: center;
 
 }
 
