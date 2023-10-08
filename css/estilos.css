@@ -313,6 +313,62 @@ header{
 
 }
 
+/* ASIDE */
+/* Estilos para el aside */
+
+.lateral-izq{
+    float: left;
+    padding: var(--spacing-20)
+    
+  }
+  
+  /* Estilos para el formulario y sus elementos */
+  form {
+    font-family: Arial, sans-serif;
+    width: 300px;
+  }
+  .form-titulo {
+   
+    font-size: var(--font-small);
+    font-weight: 800;
+  }
+
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+ 
+.campo__mini , campo__maxi{
+    width: 80px;
+    
+  }
+
+
+  
+ label {
+    display:inline-block;
+    margin-right: 10px;
+
+  }
+
+/* ITEM */
+.card-item__precio-2{
+    font-size: var(--font-jumbo);
+    font-weight: 800;
+    
+}
+
+ 
+
+ 
+/* FIN ASIDE */
+
 
 /* ANIMACION */
 @keyframes fade{
