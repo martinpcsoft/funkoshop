@@ -344,7 +344,7 @@ select {
   border-radius: 6px;
 }
  
-.campo__mini , campo__maxi{
+.campo__mini, .campo__maxi{
     width: 80px;
     
   }
@@ -358,12 +358,47 @@ select {
   }
 
 /* ITEM */
+.collection__titulo-2 {
+    font-family: var(--alternative-font);
+    font-size: var(--font-medium);
+    font-weight: 600;
+}
 .card-item__precio-2{
     font-size: var(--font-jumbo);
     font-weight: 800;
     
 }
+.container_cantidad{
+    display: flex;
+}
+.btn_cantidad{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--dark-bg-solid);
+    color: var(--ligth-font-solid);
+    font-size:var(--font-small);
+    font-weight: 600;
 
+}
+.campo_cantidad{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+   
+
+}
+
+.btn_agregar{
+    display:inline-block;
+    background-color: var(--primary-solid);
+    padding: var(--spacing-12) var(--spacing-68);
+    font-size: var(--font-small);
+    color:var(--ligth-font-solid);
+    margin-left: 20px;
+    border: var(--secundary-900)
+
+}
  
 
  
